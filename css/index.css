@@ -1,0 +1,321 @@
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #dddcdc;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*____Configurando a imagen_____*/
+
+body div.frases {
+    background: #24132c;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+body div.frases i.icon {
+    color: #f1f1f1;
+    font-size: 5em;
+    margin-right: 2em;
+}
+
+/*_____CONFIGURANDO O MENU______*/
+
+header.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #632984;
+    height: 5em;
+    margin-top: -3px;
+    padding-right: 223px;
+    padding-left: 223px;
+
+    border-bottom: 1px solid #dbb3f1;
+}
+
+header.menu i.pedroFranco {
+    color: #f1f1f1;
+    font-size: 3em;
+    cursor: pointer;
+}
+
+header.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+    height: 100%;
+} 
+
+header.menu ul button {
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 5px;
+    margin: 1em;
+    color: rgb(25, 25, 25);
+
+    border: none;
+    border-radius: 1px;
+    background: #f1f1f1;
+}
+
+header.menu ul button:hover {
+    color: #f1f1f1;
+    background:#A44AAF;
+}
+
+header.menu ul li {
+    color: #f1f1f1;
+    font-size: 1.5em;
+    margin: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header.menu div.redes a i.faceboock {
+    font-size: 1.6em;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+header.menu div.redes a i.github {
+    font-size: 1.6em;
+    color: #f1f1f1;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+header.menu div.redes i.whatsapp {
+    font-size: 1.6em;
+    color: #f1f1f1;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+header.menu div.redes a i.gmail {
+    font-size: 1.6em;
+    color: #f1f1f1;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+/*_____CONFIGURANDO METAS_____*/
+
+body header.metas {
+    background: #A44AAF;
+    height: 40em;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header.pedro {
+    border-top: 1px solid #dbb3f1;
+}
+
+body header.metas header.cards {
+    display: flex;
+}
+
+body header.metas header.cards div {
+    background: #f1f1f1;
+    height: 30em;
+    width: 19em;
+
+    margin: 1em;
+    margin-top: 40.4em;
+    box-shadow: 0px 0px 3px black;
+    border: 1px;
+    border-radius: 2px;
+
+    font-size: 1.1em;
+    color: rgb(25, 25, 25);
+    padding: 1.3em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+body header.metas header.cards div:hover {
+    background: #A44AAF;
+    color: #f1f1f1;
+}
+
+body header.metas header.cards div.cima {
+    background: #f1f1f1;
+    height: 30em;
+    width: 19em;
+
+    margin: 1em;
+    margin-top: 30.4em;
+    box-shadow: 0px 0px 3px black;
+    border: 1px;
+    border-radius: 2px;
+
+    font-size: 1.1em;
+    color: rgb(25, 25, 25);
+    padding: 1.3em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+body header.metas header.cards div.cima:hover {
+    background: #A44AAF;
+    color: #f1f1f1;
+}
+
+body header.metas header.cards div img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+body header.metas header.cards div.cima img {
+    width: 100%;
+    margin-bottom: 1em;
+    height: 9em;
+    object-fit: cover;
+
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+body header.metas header.cards div img {
+    width: 100%;
+    margin-bottom: 1em;
+    height: 9em;
+    object-fit: cover;
+
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+
+body header.metas header.cards div button {
+    border: 1px solid #555555;
+    border-radius: 2px;
+    background: #A44AAF;
+    color: #f1f1f1;
+    width: 5em;
+    padding: 3px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    border: 1px solid  rgb(22, 22, 22);
+
+    margin-top: 1em;
+}
+
+body header.metas header.cards div button:hover {
+    background: #f1f1f1;
+    color: rgb(25, 25, 25);
+}
+
+
+/*CONFIGURANDO HEADER.PEDRO*/
+
+header.pedro {
+    background: #632984;
+    height: 4em;
+    width: 100%;
+}
+
+header.pedro-franco {
+    background: #632984;
+    height: 40em;
+    width: 100%;
+    margin-top: 40em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header.pedro-franco h1 {
+    font-size: 3em;
+    color: #e4e2e2;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header.pedro-franco h2 {
+    margin-top: 2px;
+    color: #b8b7b7;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header.pedro-franco div.conteiner {
+    display: flex;
+    margin-top: 4em;
+}
+
+header.pedro-franco div.conteiner img {
+    height: 20.5em;
+    margin-right: 2.5em;
+}
+
+header.pedro-franco div.conteiner div {
+    width: 30em;
+}
+
+header.pedro-franco div.conteiner div h3 {
+    font-size: 2.6em;
+    color: rgb(22, 22, 22);
+
+    margin-top: -8px;
+}
+
+header.pedro-franco div.conteiner div p {
+    font-size: 1.5em;
+    color: rgb(22, 22, 22);
+    margin-bottom: 1.5em;
+}
+
+header.pedro-franco div.conteiner div button {
+    border: 2px solid #322738;
+    border-radius: 2px;
+    background: #632984;
+    color: #f1f1f1;
+    font-weight: bold;
+    width: 6.5em;
+    height: 2em;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    border: 2px solid rgb(22, 22, 22);
+
+    font-size: 1.4em;
+}
+
+header.pedro-franco div.conteiner button:hover {
+    background: #f1f1f1;
+    border: 2px solid rgb(22, 22, 22);
+    color: rgb(22, 22, 22);
+}
